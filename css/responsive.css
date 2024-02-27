@@ -1,0 +1,246 @@
+@media screen and (max-width: 1700px) {
+  main .skillwrap .skills {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    padding: 15px 60px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  main .skillwrap .skills p {
+    width: 100%;
+    text-align: center;
+  }
+  main .skillwrap .skills img {
+    width: 100%;
+  }
+  main .projectwrap {
+    flex-wrap: wrap;
+  }
+  main .projectwrap .proj {
+    width: 40%;
+  }
+  main .projectwrap .proj:last-child {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  main .aboutmewrap {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .aboutmewrap .about1 {
+    width: 85%;
+    margin-left: 15%;
+  }
+  main .aboutmewrap .aboutimg {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  main .skillwrap .skills {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  main .contactwrap .contact {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  main .projectwrap {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  main .projectwrap .proj {
+    justify-content: center;
+    align-items: center;
+    width: 520px;
+    margin: 20px auto;
+  }
+  main .projectwrap .proj p {
+    color: white;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+  }
+  main .projectwrap .proj img {
+    border-radius: 25px;
+    width: 520px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  main .skillwrap .skills {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 950px) {
+  main .aboutmewrap .about1 {
+    width: 65%;
+    margin-left: 35%;
+  }
+  main .aboutmewrap .about1 .about2 {
+    padding: 0px;
+    flex-direction: column;
+  }
+  main .aboutmewrap .about1 .about2 .about3 {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 890px) {
+  main .skillwrap {
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 750px) {
+  header {
+    height: 180px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  header nav {
+    padding-left: 35px;
+    width: 100%;
+    justify-content: center;
+  }
+  header .logo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 700px) {
+  main .aboutmewrap .about1 {
+    width: 75%;
+    margin-left: 25%;
+  }
+}
+@media screen and (max-width: 650px) {
+  footer {
+    height: 150px;
+  }
+  footer .footcenter {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer .footcenter nav ul li a {
+    margin-top: 0px;
+  }
+  header nav {
+    width: 100%;
+  }
+  header nav ul li a {
+    margin-right: 15px;
+  }
+  main .contactwrap .contact .contact1 {
+    width: 600px;
+  }
+  main .contactwrap .contact .contact1 form {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  main .contactwrap .contact .contact1 {
+    width: 450px;
+  }
+  main .contactwrap .contact .contact1 form {
+    width: 100%;
+  }
+  main .contactwrap .contact .contact1 .iframewrap {
+    width: 408px;
+    height: 228px;
+  }
+  main .contactwrap .contact .contact1 .iframewrap iframe {
+    width: 400px;
+    height: 220px;
+  }
+}
+@media screen and (max-width: 550px) {
+  main .projectwrap .proj {
+    width: 350px;
+    margin: 20px auto;
+  }
+  main .projectwrap .proj img {
+    width: 350px;
+  }
+  main .aboutmewrap .about1 {
+    width: 85%;
+    margin-left: 15%;
+  }
+}
+@media screen and (max-width: 470px) {
+  header nav ul li a {
+    display: flex;
+    font-size: 18px;
+  }
+  main .titlbgimg h1 {
+    font-size: 55px;
+  }
+  main .aboutmewrap .about1 .about2 .about3 h3 {
+    font-size: 22px;
+  }
+  main .aboutmewrap .about1 .about2 .about3 p {
+    font-size: 15px;
+  }
+  main .projectwrap .proj p {
+    font-size: 15px;
+  }
+  main .contactwrap .contact .contact1 {
+    width: 300px;
+  }
+  main .contactwrap .contact .contact1 .iframewrap {
+    width: 278px;
+    height: 158px;
+  }
+  main .contactwrap .contact .contact1 .iframewrap iframe {
+    width: 270px;
+    height: 150px;
+  }
+  main .contactwrap .contact .contact1 form {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 380px) {
+  main .contactwrap .contact .contact1 {
+    width: 280px;
+  }
+  main .titlbgimg h1 {
+    font-size: 45px;
+  }
+  main .projectwrap .proj {
+    width: 270px;
+    margin: 15px auto;
+  }
+  main .projectwrap .proj img {
+    width: 270px;
+  }
+  header nav {
+    margin-left: -10px;
+  }
+  header nav ul li a {
+    font-size: 13px;
+  }
+  footer .footcenter p {
+    text-align: center;
+    font-size: 12px;
+  }
+  footer .footcenter nav ul li a {
+    font-size: 20px;
+    margin-right: 5px;
+  }
+}/*# sourceMappingURL=responsive.css.map */
